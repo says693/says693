@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="118" viewBox="0 0 880 118" role="img" aria-label="陆玖叁 · 赛博拜帖（暗色）">
+  <defs>
+    <linearGradient id="cdiv-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#69AEA2" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#69AEA2" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#69AEA2" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#69AEA2" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .serif { font-family: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', 'SimSun', Georgia, serif; }
+      .mono  { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+      .sans  { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Sleek horizontal inkstone card -->
+  <rect x="8" y="6" width="864" height="106" rx="4" fill="#121820" stroke="#69AEA2" stroke-opacity="0.20" stroke-width="1"/>
+  <rect x="13" y="11" width="854" height="96" rx="2" fill="none" stroke="#69AEA2" stroke-opacity="0.09" stroke-width="0.75"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#69AEA2" stroke-width="1.4" fill="none" stroke-linecap="square" opacity="0.78">
+    <path d="M8 19 V6 H21"/>
+    <path d="M859 6 H872 V19"/>
+    <path d="M8 99 V112 H21"/>
+    <path d="M859 112 H872 V99"/>
+  </g>
+
+  <!-- Compact terminal header strip -->
+  <text x="34" y="31" class="mono" font-size="11.5" fill="#69AEA2" font-weight="600">~$</text>
+  <text x="54" y="31" class="mono" font-size="11.5" fill="#89A19C">cat ./693.card</text>
+  <text x="190" y="31" class="mono" font-size="10.5" fill="#5D7470">// ordinary, yet slightly strange</text>
+  <text x="846" y="31" class="serif" font-size="11.5" fill="#DF6A5F" text-anchor="end" letter-spacing="2">〔 赛博拜帖 〕</text>
+
+  <line x1="34" y1="42" x2="846" y2="42" stroke="#69AEA2" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- Center column divider -->
+  <line x1="444" y1="50" x2="444" y2="100" stroke="url(#cdiv-d)" stroke-width="1"/>
+
+  <!-- 2x2 Key-Value Grid -->
+  <g font-size="13">
+    <!-- Left Column -->
+    <text x="34" y="69" class="serif" fill="#7EB3A9" letter-spacing="2.5">器用</text>
+    <text x="79" y="68" class="mono" fill="#69AEA2" opacity="0.34">│</text>
+    <text x="96" y="69" class="mono" font-size="12.2" fill="#D2DDD9">TypeScript · JavaScript · AI Agents</text>
+
+    <text x="34" y="95" class="serif" fill="#7EB3A9" letter-spacing="2.5">出没</text>
+    <text x="79" y="94" class="mono" fill="#69AEA2" opacity="0.34">│</text>
+    <text x="96" y="95" class="mono" font-size="12.2" fill="#D2DDD9">Bilibili · GitHub (@says693)</text>
+
+    <!-- Right Column -->
+    <text x="470" y="69" class="serif" fill="#7EB3A9" letter-spacing="2.5">近务</text>
+    <text x="515" y="68" class="mono" fill="#69AEA2" opacity="0.34">│</text>
+    <text x="532" y="69" class="sans" fill="#D2DDD9">折页 FOLD · DSH 插件 · 开源汉化</text>
+
+    <text x="470" y="95" class="serif" fill="#7EB3A9" letter-spacing="2.5">近况</text>
+    <text x="515" y="94" class="mono" fill="#69AEA2" opacity="0.34">│</text>
+    <circle cx="537" cy="90.5" r="3.4" fill="#5CC4B3"/>
+    <circle cx="537" cy="90.5" r="6.4" fill="#5CC4B3" opacity="0.20"/>
+    <text x="550" y="95" class="sans" fill="#D2DDD9">入世写码，留白造梦</text>
+  </g>
+</svg>

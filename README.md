@@ -1,18 +1,16 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.png" />
-    <img src="./assets/banner-light.png" alt="墨韵画卷 · 陆玖叁" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png" />
+    <img src="./assets/hero-light.png" alt="陆玖叁 · 卷首水墨题签（祝永入世而不入俗，愿永幻想而亦理性）" width="100%" />
   </picture>
 </div>
 
-<br />
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/calling-card-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/calling-card-light.svg" />
-    <img src="./assets/calling-card-light.svg" alt="陆玖叁 · 赛博拜帖" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/cyber-bar-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/cyber-bar-light.svg" />
+    <img src="./assets/cyber-bar-light.svg" alt="陆玖叁 · 赛博拜帖" width="100%" />
   </picture>
 </div>
 
@@ -36,14 +34,13 @@
   </picture>
 </div>
 
-| 器物 | 分类 | 一句话注脚 |
-| :--- | :---: | :--- |
-| [**折页 FOLD (`tack`)**](https://github.com/says693/tack) | `TypeScript` | 连接自己的 AI，依可信资料生成离线本地课程与复习路径 |
-| [**灵动岛 (`dsh-composer-dynamic-island`)**](https://github.com/says693/dsh-composer-dynamic-island) | `JavaScript` | 为 DSH 网页端裁一方克制紧凑的 Composer 灵动岛组件 |
-| [**散句 (`dsh-scatter`)**](https://github.com/says693/dsh-scatter) | `JavaScript` | DSH 输入区 Prompt 改写与多候选流式推演插件 |
-| [**小窗视界 (`dsh-artplayer`)**](https://github.com/says693/dsh-artplayer) | `JavaScript` | 轻量 DSH 侧栏视频插件，支持双击展开与长按三倍速 |
-| [**译事 (`tern-omp-zh`)**](https://github.com/says693/tern-omp-zh) | `JavaScript` | Tern / omp 简体中文汉化包与自动维护 CLI |
-| [**`ccch1mneyyy/dsh-TUI`**](https://github.com/ccch1mneyyy/dsh-TUI) · [**`dsh-Go`**](https://github.com/ccch1mneyyy/dsh-Go) | `社区协力` | 深度参与的 DSH 终端交互插件与移动端远程工具 |
+<div align="center">
+  <a href="https://github.com/says693/tack"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-tack-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-tack-light.svg" /><img src="./assets/work-tack-light.svg" alt="折页 FOLD (says693/tack)" width="48.8%" /></picture></a>&nbsp;<a href="https://github.com/says693/dsh-composer-dynamic-island"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-island-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-island-light.svg" /><img src="./assets/work-island-light.svg" alt="灵动岛 (says693/dsh-composer-dynamic-island)" width="48.8%" /></picture></a>
+  <br />
+  <a href="https://github.com/says693/dsh-scatter"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-scatter-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-scatter-light.svg" /><img src="./assets/work-scatter-light.svg" alt="散句 (says693/dsh-scatter)" width="48.8%" /></picture></a>&nbsp;<a href="https://github.com/says693/tern-omp-zh"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-tern-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-tern-light.svg" /><img src="./assets/work-tern-light.svg" alt="译事 (says693/tern-omp-zh)" width="48.8%" /></picture></a>
+  <br />
+  <a href="https://github.com/ccch1mneyyy/dsh-TUI"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-tui-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-tui-light.svg" /><img src="./assets/work-tui-light.svg" alt="dsh-TUI (ccch1mneyyy/dsh-TUI)" width="48.8%" /></picture></a>&nbsp;<a href="https://github.com/ccch1mneyyy/dsh-Go"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-go-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/work-go-light.svg" /><img src="./assets/work-go-light.svg" alt="dsh-Go (ccch1mneyyy/dsh-Go)" width="48.8%" /></picture></a>
+</div>
 
 <br />
 
