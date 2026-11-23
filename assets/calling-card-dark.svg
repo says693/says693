@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="248" viewBox="0 0 880 248" role="img" aria-label="陆玖叁 · 赛博拜帖（暗色）">
+  <defs>
+    <linearGradient id="vdiv-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#69AEA2" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#69AEA2" stop-opacity="0.34"/>
+      <stop offset="78%" stop-color="#69AEA2" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#69AEA2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent-d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#69AEA2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#69AEA2" stop-opacity="0.12"/>
+    </linearGradient>
+    <style>
+      .serif { font-family: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', 'SimSun', Georgia, serif; }
+      .mono  { font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .sans  { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Inkstone dark card surface -->
+  <rect x="8" y="8" width="864" height="232" rx="4" fill="#121820" stroke="#69AEA2" stroke-opacity="0.22" stroke-width="1"/>
+  <rect x="14" y="14" width="852" height="220" rx="2" fill="none" stroke="#69AEA2" stroke-opacity="0.1" stroke-width="0.75"/>
+
+  <!-- Minimalist Chinese corner brackets (折角线) -->
+  <g stroke="#69AEA2" stroke-width="1.6" fill="none" stroke-linecap="square" opacity="0.82">
+    <path d="M8 22 V8 H22"/>
+    <path d="M858 8 H872 V22"/>
+    <path d="M8 226 V240 H22"/>
+    <path d="M858 240 H872 V226"/>
+  </g>
+
+  <!-- Faint moonlit bamboo silhouette watermark -->
+  <g stroke="#69AEA2" fill="none" opacity="0.07" stroke-linecap="round">
+    <path d="M352 238 Q364 190 384 146" stroke-width="2"/>
+    <path d="M366 196 Q344 186 328 192" stroke-width="1.3"/>
+    <path d="M372 174 Q352 160 338 156" stroke-width="1.2"/>
+    <path d="M376 168 Q390 154 396 142" stroke-width="1.1"/>
+  </g>
+
+  <!-- LEFT: 题签与朱砂方印 -->
+  <text x="46" y="48" class="mono" font-size="11" fill="#7CA39C" letter-spacing="2.2">NO. 693  ·  卷首题签</text>
+
+  <!-- Name -->
+  <text x="44" y="114" class="serif" font-size="44" font-weight="600" fill="#E8EEEB" letter-spacing="8">陆玖叁</text>
+
+  <!-- Traditional Cinnabar Seal (朱砂阴文方印: 陆玖叁印) -->
+  <g transform="translate(216, 75)">
+    <rect x="0" y="0" width="40" height="40" rx="2.5" fill="#C94A40"/>
+    <rect x="3" y="3" width="34" height="34" rx="1" fill="none" stroke="#F6F2EC" stroke-width="0.9" opacity="0.9"/>
+    <rect x="11" y="0" width="2.2" height="1.3" fill="#121820" opacity="0.6"/>
+    <rect x="38.8" y="25" width="1.4" height="2.4" fill="#121820" opacity="0.6"/>
+    <rect x="27" y="38.8" width="2" height="1.3" fill="#121820" opacity="0.6"/>
+    <text x="27.5" y="16.8" class="serif" font-size="12.5" font-weight="700" fill="#F6F2EC" text-anchor="middle">陆</text>
+    <text x="27.5" y="31.8" class="serif" font-size="12.5" font-weight="700" fill="#F6F2EC" text-anchor="middle">玖</text>
+    <text x="12.5" y="16.8" class="serif" font-size="12.5" font-weight="700" fill="#F6F2EC" text-anchor="middle">叁</text>
+    <text x="12.5" y="31.8" class="serif" font-size="12.5" font-weight="700" fill="#F6F2EC" text-anchor="middle">印</text>
+  </g>
+
+  <!-- Accent divider + handle -->
+  <rect x="46" y="135" width="20" height="2" rx="1" fill="#D65A4F"/>
+  <rect x="70" y="135.2" width="66" height="1.5" rx="0.75" fill="url(#accent-d)"/>
+  <text x="146" y="140" class="mono" font-size="12" fill="#8BB5AD" letter-spacing="0.6">@says693</text>
+
+  <!-- Motto -->
+  <text x="46" y="178" class="serif" font-size="14.5" fill="#D2DCD8" letter-spacing="2.6">祝永入世而不入俗</text>
+  <text x="46" y="204" class="serif" font-size="14.5" fill="#92A8A3" letter-spacing="2.6">愿永幻想而亦理性</text>
+
+  <!-- CENTER DIVIDER -->
+  <line x1="398" y1="32" x2="398" y2="216" stroke="url(#vdiv-d)" stroke-width="1"/>
+  <polygon points="398,120 401.5,124 398,128 394.5,124" fill="#D65A4F" opacity="0.9"/>
+
+  <!-- RIGHT: 赛博拜帖 (Cyber Calling Card) -->
+  <text x="432" y="48" class="mono" font-size="12" fill="#69AEA2" font-weight="600">~$</text>
+  <text x="454" y="48" class="mono" font-size="12" fill="#89A19C">cat ./693.card</text>
+  <text x="836" y="48" class="serif" font-size="11.5" fill="#DF6A5F" text-anchor="end" letter-spacing="2">〔 赛博拜帖 〕</text>
+
+  <line x1="432" y1="62" x2="836" y2="62" stroke="#69AEA2" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Key-Value Rows -->
+  <g font-size="13.2">
+    <text x="432" y="92" class="serif" fill="#7EB3A9" letter-spacing="3">名讳</text>
+    <text x="480" y="91" class="mono" fill="#69AEA2" opacity="0.35">│</text>
+    <text x="498" y="92" class="sans" fill="#E8EEEB" font-weight="500">陆玖叁</text>
+    <text x="548" y="92" class="mono" font-size="12.2" fill="#8B9E9A">· says693</text>
+
+    <text x="432" y="119" class="serif" fill="#7EB3A9" letter-spacing="3">器用</text>
+    <text x="480" y="118" class="mono" fill="#69AEA2" opacity="0.35">│</text>
+    <text x="498" y="119" class="mono" font-size="12.5" fill="#CBD7D4">TypeScript · JavaScript · AI Agents</text>
+
+    <text x="432" y="146" class="serif" fill="#7EB3A9" letter-spacing="3">近务</text>
+    <text x="480" y="145" class="mono" fill="#69AEA2" opacity="0.35">│</text>
+    <text x="498" y="146" class="sans" fill="#CBD7D4">折页 FOLD · DSH 插件 · 开源汉化</text>
+
+    <text x="432" y="173" class="serif" fill="#7EB3A9" letter-spacing="3">出没</text>
+    <text x="480" y="172" class="mono" fill="#69AEA2" opacity="0.35">│</text>
+    <text x="498" y="173" class="mono" font-size="12.5" fill="#CBD7D4">Bilibili · GitHub</text>
+
+    <text x="432" y="200" class="serif" fill="#7EB3A9" letter-spacing="3">近况</text>
+    <text x="480" y="199" class="mono" fill="#69AEA2" opacity="0.35">│</text>
+    <circle cx="503" cy="195.5" r="3.5" fill="#5CC4B3"/>
+    <circle cx="503" cy="195.5" r="6.5" fill="#5CC4B3" opacity="0.2"/>
+    <text x="516" y="200" class="sans" fill="#CBD7D4">入世写码，留白造梦</text>
+  </g>
+
+  <text x="836" y="224" class="mono" font-size="10.5" fill="#687D79" text-anchor="end">// ordinary, yet slightly strange — 693</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="344" viewBox="0 0 880 344" role="img" aria-label="陆玖叁自序：一位普通人，无论是精神上，行为上，还是思想上……你曾认识过一个，叫陆玖叁的怪人。">
+  <defs>
+    <linearGradient id="qbar-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E4D45" stop-opacity="0.85"/>
+      <stop offset="85%" stop-color="#1E4D45" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1E4D45" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="sigline-l" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E4D45" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="#1E4D45" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1E4D45" stop-opacity="0.45"/>
+    </linearGradient>
+    <style>
+      .serif { font-family: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', 'SimSun', Georgia, serif; }
+      .mono  { font-family: 'JetBrains Mono', 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Subtle Xuan-paper letter sheet -->
+  <rect x="8" y="8" width="864" height="328" rx="4" fill="#FAF8F4" stroke="#1E4D45" stroke-opacity="0.14" stroke-width="1"/>
+
+  <!-- Whisper-faint Chinese stationery ruled lines (笺纸淡格) -->
+  <g stroke="#1E4D45" stroke-opacity="0.065" stroke-width="0.75">
+    <line x1="64" y1="64"  x2="770" y2="64"/>
+    <line x1="64" y1="91"  x2="770" y2="91"/>
+    <line x1="64" y1="118" x2="770" y2="118"/>
+    <line x1="64" y1="145" x2="770" y2="145"/>
+    <line x1="64" y1="172" x2="770" y2="172"/>
+    <line x1="64" y1="199" x2="770" y2="199"/>
+    <line x1="64" y1="226" x2="770" y2="226"/>
+    <line x1="64" y1="253" x2="770" y2="253"/>
+    <line x1="64" y1="280" x2="770" y2="280"/>
+  </g>
+
+  <!-- Left ink quote rule + cinnabar dot -->
+  <rect x="44" y="34" width="4.5" height="4.5" rx="0.8" fill="#B83B32"/>
+  <rect x="45.2" y="45" width="2" height="234" rx="1" fill="url(#qbar-l)"/>
+
+  <!-- Right-side subtle ink mountain / branch watermark -->
+  <g fill="none" stroke="#1E4D45" opacity="0.06" stroke-linecap="round">
+    <path d="M620 296 Q672 254 718 266 T826 244" stroke-width="1.6"/>
+    <path d="M666 296 Q724 268 776 276 T856 262" stroke-width="1.2"/>
+  </g>
+
+  <!-- Right margin vertical title cartouche (眉题: 自序) -->
+  <g transform="translate(804, 40)">
+    <rect x="0" y="0" width="28" height="66" rx="14" fill="none" stroke="#1E4D45" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="14" y="27" class="serif" font-size="13" fill="#4A6B64" text-anchor="middle">自</text>
+    <text x="14" y="51" class="serif" font-size="13" fill="#4A6B64" text-anchor="middle">序</text>
+  </g>
+
+  <!-- Original Manifesto Poem (verbatim) -->
+  <g class="serif" font-size="14.5" letter-spacing="1.2" fill="#2A3634">
+    <text x="68" y="57">一位普通人，无论是精神上，行为上，还是思想上</text>
+    <text x="68" y="84" fill="#3B4B48">似乎是一个友善的人，也是一个虚伪的人，兴许其实是一个傲慢的人</text>
+    <text x="68" y="111">我叫陆玖叁，因为我想叫这个名字</text>
+    <text x="68" y="138" fill="#3B4B48">你知道了我叫这个名字</text>
+    <text x="68" y="165">很期待，可能哪天，你会突然想起来</text>
+    <text x="68" y="192" fill="#173D36" font-weight="600">你曾认识过一个，叫陆玖叁的怪人</text>
+    <text x="68" y="219">他像普通人，无论是精神上，行为上，还是思想上</text>
+    <text x="68" y="246" fill="#3B4B48">似乎是一个可爱的人，也是一个易怒的人</text>
+    <text x="68" y="273" fill="#3B4B48">兴许是一个善于伪装的人</text>
+  </g>
+
+  <!-- Sign-off rule + 693 + tiny cinnabar leisure seal -->
+  <line x1="68" y1="308" x2="730" y2="308" stroke="url(#sigline-l)" stroke-width="1"/>
+  <text x="745" y="312.5" class="mono" font-size="13.5" fill="#2A3634" letter-spacing="2">693</text>
+
+  <g transform="translate(794, 297.5)">
+    <rect x="0" y="0" width="38" height="20" rx="2" fill="#B83B32"/>
+    <rect x="2" y="2" width="34" height="16" rx="1" fill="none" stroke="#FAF8F4" stroke-width="0.7" opacity="0.85"/>
+    <text x="19" y="14" class="serif" font-size="10.5" font-weight="600" fill="#FAF8F4" text-anchor="middle" letter-spacing="2">陆玖</text>
+  </g>
+</svg>

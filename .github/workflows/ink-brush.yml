@@ -1,0 +1,40 @@
+name: Refresh Ink Brush Contribution Scroll
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-ink-brush:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Light & Dark Ink Brush SVGs
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_ink_brush.py
+
+      - name: Commit updated SVGs if changed
+        run: |
+          if git diff --quiet assets/ink-brush-light.svg assets/ink-brush-dark.svg; then
+            echo "No contribution changes today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ink-brush-light.svg assets/ink-brush-dark.svg
+          git commit -m "chore: refresh ink-brush contribution scroll"
+          git push

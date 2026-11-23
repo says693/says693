@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="34" viewBox="0 0 176 34" role="img" aria-label="Bilibili · 陆玖叁（暗色）">
+  <style>
+    .serif { font-family: 'Songti SC', 'Noto Serif SC', 'Source Han Serif SC', 'STSong', 'SimSun', Georgia, serif; }
+    .mono  { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, monospace; }
+  </style>
+  <rect x="1" y="1" width="174" height="32" rx="3" fill="#121820" stroke="#69AEA2" stroke-opacity="0.35" stroke-width="1"/>
+  <rect x="12" y="10" width="14" height="14" rx="2" fill="#C94A40"/>
+  <text x="19" y="20.4" class="serif" font-size="9.5" font-weight="700" fill="#F6F2EC" text-anchor="middle">哔</text>
+  <text x="36" y="21" class="mono" font-size="11.5" fill="#E5ECE9" letter-spacing="0.4">Bilibili</text>
+  <text x="104" y="20.5" class="serif" font-size="11.5" fill="#8BB5AD">· 陆玖叁</text>
+</svg>
